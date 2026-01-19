@@ -4,7 +4,7 @@ Niniejszy projekt przedstawia symulację sterowania przegubem robota typu UR5 z 
 
 # Wymagania projektu
 ---
-Projekt potrzebuje następujących dodatków:
+Projekt potrzebuje następujących dodatków do prawidłowego działania:
 * System operacyjny Ubuntu 24.04
 * Dystrybucja ROS 2  "Jazzy"
 * Paczka docker
@@ -25,6 +25,7 @@ Projekt potrzebuje następujących dodatków:
 # Autorzy projektu:
 # Kacper Gwizdoń
 # Jakub Dudziak
+
 
 
 
