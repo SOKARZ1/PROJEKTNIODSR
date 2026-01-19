@@ -17,8 +17,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='huj',
-    maintainer_email='huj@todo.todo',
+    maintainer='git',
+    maintainer_email='git@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
