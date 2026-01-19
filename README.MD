@@ -1,15 +1,15 @@
-#Projekt sterowania manipulatorem 6-ścio osiowym w przegubie numer 1.
+# Projekt sterowania manipulatorem 6-ścio osiowym w przegubie numer 1.
 
 Niniejszy projekt przedstawia symulację sterowania przegubem robota typu UR5 z wykorzystaniem środowiska RWiz2.
 
-#Wymagania projektu
+# Wymagania projektu
 ---
 Projekt potrzebuje następujących dodatków:
 * System operacyjny Ubuntu 24.04
 * Dystrybucja ROS 2  "Jazzy"
 * Paczka docker
 
-#Uruchamianie projektu
+# Uruchamianie projektu
 ---
 1. Wejść do folderu projektu poprzez terminal
 2. Zbudować projekt poprzez komendy:
@@ -17,6 +17,14 @@ Projekt potrzebuje następujących dodatków:
 * sudo chmod +x start_docker.sh
 * sudo xhost +
 * sudo ./start_docker.sh
+3. W aplikacji Rwiz2:
+* Zmienić współrzędne na baselink
+* Dodać model robota
+* Podpiąć temat pod robota
+
+# Autorzy projektu:
+# Kacper Gwizdoń
+# Jakub Dudziak
 
 
 
