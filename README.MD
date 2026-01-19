@@ -1,6 +1,6 @@
 # Projekt sterowania manipulatorem UR5.
 
-Niniejszy projekt przedstawia symulację sterowania przegubem robota typu UR5 z wykorzystaniem środowiska RWiz2.
+Niniejszy projekt przedstawia symulację sterowania przegubem robota typu UR5 z wykorzystaniem środowiska RViz2.
 
 # Wymagania projektu
 Projekt potrzebuje następujących dodatków do prawidłowego działania:
@@ -23,6 +23,7 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 # Autorzy projektu:
 * Kacper Gwizdoń
 * Jakub Dudziak
+
 
 
 
