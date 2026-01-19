@@ -3,14 +3,12 @@
 Niniejszy projekt przedstawia symulację sterowania przegubem robota typu UR5 z wykorzystaniem środowiska RWiz2.
 
 # Wymagania projektu
----
 Projekt potrzebuje następujących dodatków do prawidłowego działania:
 * System operacyjny Ubuntu 24.04
 * Dystrybucja ROS 2  "Jazzy"
 * Paczka docker
 
 # Uruchamianie projektu
----
 1. Wejść do folderu projektu poprzez terminal
 2. Zbudować projekt poprzez komendy:
 * docker build -t my_ur5_project_image-
@@ -23,8 +21,9 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 * Podpiąć temat pod robota
 
 # Autorzy projektu:
-# Kacper Gwizdoń
-# Jakub Dudziak
+Kacper Gwizdoń
+Jakub Dudziak
+
 
 
 
