@@ -16,7 +16,7 @@ class UR5Controller(Node):
         self.window_name = "Sterowanie UR5"
         self.current_frame = None
         
-        # Prawdziwe nazwy stawów w UR5
+        
         self.joint_names = [
             'shoulder_pan_joint', 
             'shoulder_lift_joint', 
@@ -26,7 +26,7 @@ class UR5Controller(Node):
             'wrist_3_joint'
         ]
         
-        # Pozycje początkowe (w radianach) - ustawiamy go w "neutralnej" pozycji
+        
         self.joint_positions = [0.0, -1.57, 0.0, -1.57, 0.0, 0.0]
         
         self.target_direction = 0
@@ -43,30 +43,30 @@ class UR5Controller(Node):
             if self.current_frame is None: return
             height, _, _ = self.current_frame.shape
             
-            # GÓRA / DÓŁ steruje drugim stawem (shoulder_lift_joint)
+           
             if y < height / 2:
-                self.target_direction = 1 # Do góry
+                self.target_direction = 1 
                 self.get_logger().info("UR5: Podnoszenie")
             else:
-                self.target_direction = -1 # W dół
+                self.target_direction = -1 
                 self.get_logger().info("UR5: Opuszczanie")
 
     def timer_callback(self):
-        # Modyfikujemy tylko staw nr 1 (shoulder_lift_joint)
+       
         step = 0.02
         idx = 1 
         
         if self.target_direction == 1:
-            self.joint_positions[idx] -= step # W UR5 minus to często "w górę"
+            self.joint_positions[idx] -= step 
         elif self.target_direction == -1:
             self.joint_positions[idx] += step
             
-        # Ograniczenia mechaniczne UR5 (w przybliżeniu)
+        
         self.joint_positions[idx] = max(-3.14, min(0.0, self.joint_positions[idx]))
         
         self.target_direction = 0 
 
-        # Wysyłanie wiadomości
+       
         msg = JointState()
         msg.header.stamp = self.get_clock().now().to_msg()
         msg.name = self.joint_names
