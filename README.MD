@@ -16,13 +16,14 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 * sudo xhost +
 * sudo ./start_docker.sh
 3. W aplikacji RViz2:
-* Zmienić współrzędne na baselink
+* Zmienić fixed frame na baselink
 * Dodać model robota
-* Podpiąć temat pod robota
+* Podpiąć temat /robot_description pod robota
 
 # Autorzy projektu:
 * Kacper Gwizdoń
 * Jakub Dudziak
+
 
 
 
