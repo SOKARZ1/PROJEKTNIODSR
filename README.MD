@@ -15,7 +15,7 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 * sudo chmod +x start_docker.sh
 * sudo xhost +
 * sudo ./start_docker.sh
-3. W aplikacji Rwiz2:
+3. W aplikacji RViz2:
 * Zmienić współrzędne na baselink
 * Dodać model robota
 * Podpiąć temat pod robota
@@ -23,6 +23,7 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 # Autorzy projektu:
 * Kacper Gwizdoń
 * Jakub Dudziak
+
 
 
 
