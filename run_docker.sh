@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# Zezwól na dostęp do serwera X (grafiki) dla lokalnych użytkowników
 xhost +local:root
 
-# Uruchom kontener
+
 docker run -it --rm \
     --name ros2_ur5_container \
     --net=host \
