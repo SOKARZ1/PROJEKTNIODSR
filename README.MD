@@ -1,4 +1,4 @@
-# Projekt sterowania manipulatorem 6-ścio osiowym w przegubie numer 1.
+# Projekt sterowania manipulatorem UR5.
 
 Niniejszy projekt przedstawia symulację sterowania przegubem robota typu UR5 z wykorzystaniem środowiska RWiz2.
 
@@ -25,6 +25,7 @@ Projekt potrzebuje następujących dodatków:
 # Autorzy projektu:
 # Kacper Gwizdoń
 # Jakub Dudziak
+
 
 
 
