@@ -11,7 +11,7 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 # Uruchamianie projektu
 1. Wejść do folderu projektu poprzez terminal
 2. Zbudować projekt poprzez komendy:
-* docker build -t my_ur5_project_image-
+* sudo docker build -t my_ur5_project_image .
 * sudo chmod +x start_docker.sh
 * sudo xhost +
 * sudo ./start_docker.sh
@@ -23,6 +23,7 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 # Autorzy projektu:
 * Kacper Gwizdoń
 * Jakub Dudziak
+
 
 
 
