@@ -21,8 +21,9 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 * Podpiąć temat pod robota
 
 # Autorzy projektu:
-Kacper Gwizdoń
-Jakub Dudziak
+* Kacper Gwizdoń8
+* Jakub Dudziak
+
 
 
 
