@@ -12,9 +12,9 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 1. Wejść do folderu projektu poprzez terminal
 2. Zbudować projekt poprzez komendy:
 * sudo docker build -t my_ur5_project_image .
-* sudo chmod +x start_docker.sh
+* sudo chmod +x run_docker.sh
 * sudo xhost +
-* sudo ./start_docker.sh
+* sudo ./run_docker.sh
 3. W aplikacji RViz2:
 * Zmienić fixed frame na baselink
 * Dodać model robota
@@ -23,6 +23,7 @@ Projekt potrzebuje następujących dodatków do prawidłowego działania:
 # Autorzy projektu:
 * Kacper Gwizdoń
 * Jakub Dudziak
+
 
 
 
